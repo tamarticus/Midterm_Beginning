@@ -14,19 +14,9 @@ background-color: #A8FF00;
     margin: 20px;
 }
 
-h1{
-width:25%;
-    height:100%;
-}
 
 
-div.myButtons{
-margin:auto;
-    width:25%;
-    height:100%;
-}
-
-.myButton {
+.myButton_color {
     
 	-moz-box-shadow: 6px 3px 0px 0px #3dc21b;
 	-webkit-box-shadow: 6px 3px 0px 0px #3dc21b;
@@ -45,16 +35,16 @@ margin:auto;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #2f6627;
 }
-.myButton:hover {
+.myButton_color:hover {
 	background-color:#5cbf2a;
 }
-.myButton:active {
+.myButton_color:active {
 	position:relative;
 	top:2px;
     
 }
 
-.myButton2 {
+.myButton_lips {
 	-moz-box-shadow: 6px 3px 0px 0px #3dc21b;
 	-webkit-box-shadow: 6px 3px 0px 0px #3dc21b;
 	box-shadow: 6px 3px 0px 0px #3dc21b;
@@ -72,16 +62,16 @@ margin:auto;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #2f6627;
 }
-.myButton2:hover {
+.myButton_lips:hover {
 	background-color:#5cbf2a;
 }
-.myButton2:active {
+.myButton_lips:active {
 	position:relative;
 	top:2px;
     
 }
 
-.myButton3 {
+.myButton_outfit {
 	-moz-box-shadow: 6px 3px 0px 0px #3dc21b;
 	-webkit-box-shadow: 6px 3px 0px 0px #3dc21b;
 	box-shadow: 6px 3px 0px 0px #3dc21b;
@@ -99,15 +89,15 @@ margin:auto;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #2f6627;
 }
-.myButton3:hover {
+.myButton_outfit:hover {
 	background-color:#5cbf2a;
 }
-.myButton3:active {
+.myButton_outfit:active {
 	position:relative;
 	top:2px;
     
 }
-.myButton4 {
+.myButton_hat {
 	-moz-box-shadow: 6px 3px 0px 0px #3dc21b;
 	-webkit-box-shadow: 6px 3px 0px 0px #3dc21b;
 	box-shadow: 6px 3px 0px 0px #3dc21b;
@@ -125,10 +115,10 @@ margin:auto;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #2f6627;
 }
-.myButton4:hover {
+.myButton_hat:hover {
 	background-color:#5cbf2a;
 }
-.myButton4:active {
+.myButton_hat:active {
 	position:relative;
 	top:2px;
     

@@ -12,16 +12,50 @@
    
   <center>
     
- <img src="screen.png">
-    
-    </center>
-    <a href="#" class="myButton"></a>
-    <a href="#" class="myButton2"></a>
-        <a href="#" class="myButton3"></a>
-    <a href="#" class="myButton4"></a>
- 
-     
+ <img src="greenfrog.png" id="frog" class="green">
+      
+    <script language="javascript">
+         function changeColor(){
+             var image = document.getElementById("frog");
+            if(image.className==="green"){
+                image.src="bluefrog.png";
+                image.className="blue";
+            } else if(image.className==="blue"){
+                image.src="purplefrog.png";
+                image.className="purple";
+            } else if(image.className==="purple"){
+                image.src="pinkfrog.png";
+                image.className="pink";
+            } else if(image.className==="pink"){
+                image.src="redfrog.png";
+                image.className="red";
+            } 
+              else if(image.className==="red"){
+                image.src="orangefrog.png";
+                image.className="orange";
+            }
+              else if(image.className==="orange"){
+                image.src="yellowfrog.png";
+                image.className="yellow";
+            }
+             else if(image.className==="yellow"){
+                image.src="lightgreenfrog.png";
+                image.className="lightgreen";
+            }
+              else if(image.className==="lightgreen"){
+                image.src="greenfrog.png";
+                image.className="green";
+            }
+         }
+    </script>
    
+    </center>
+    <a onclick="changeColor();" class="myButton_color"></a>
+    <a  class="myButton_lips"></a>
+        <a  class="myButton_outfit"></a>
+    <a  class="myButton_hat"></a>
+ 
+    
     <h2>
    
     
