@@ -11,9 +11,15 @@
     </header>
    
   <center>
-    
- <img src="greenfrog.png" id="frog" class="green">
+  
       
+     <div class="container">
+         <img src="screen.png" class="screen">
+ <img src="greenfrog.png" id="frog" class="green">
+     <img src="cowboy_hat.png" id="hat" class="cowboy">
+          <img src="smile_mouth.png" id="mouth" class="smile">
+    </div>
+     
     <script language="javascript">
          function changeColor(){
              var image = document.getElementById("frog");
@@ -29,36 +35,80 @@
             } else if(image.className==="pink"){
                 image.src="redfrog.png";
                 image.className="red";
-            } 
-              else if(image.className==="red"){
+            } else if(image.className==="red"){
                 image.src="orangefrog.png";
                 image.className="orange";
-            }
-              else if(image.className==="orange"){
+            } else if(image.className==="orange"){
                 image.src="yellowfrog.png";
                 image.className="yellow";
-            }
-             else if(image.className==="yellow"){
+            } else if(image.className==="yellow"){
                 image.src="lightgreenfrog.png";
                 image.className="lightgreen";
-            }
-              else if(image.className==="lightgreen"){
+            } else if(image.className==="lightgreen"){
                 image.src="greenfrog.png";
                 image.className="green";
             }
          }
+        
+        function changeMouth(){
+            var image2 = document.getElementById("mouth");
+              if(image2.className==="smile"){
+                image2.src="frown_mouth.png";
+                image2.className="frown";
+            }   
+        
+        
+        }
+        
+        function changeHat(){
+        var image4 = document.getElementById("hat");
+            
+            if(image4.className==="cowboy"){
+            image4.src="lincoln_hat.png";
+                image4.className="lincoln";
+            
+            } else if(image4.className==="lincoln"){
+                image4.src="chef_hat.png";
+                image4.className="chef";
+            
+            } else if(image4.className==="chef"){
+                image4.src="wizard_hat.png";
+                image4.className="wizard";
+                
+            } else if(image4.className==="wizard"){
+                image4.src="witch_hat.png";
+                image4.className="witch";
+                
+            } else if(image4.className==="witch"){
+                image4.src="grad_hat.png";
+                image4.className="grad";
+                
+            } else if(image4.className==="grad"){
+                image4.src="spin_hat.png";
+                image4.className="spin";
+                
+            } else if(image4.className==="spin"){
+                image4.src="pirate_hat.png";
+                image4.className="pirate";
+                
+            } else if(image4.className==="pirate"){
+                image4.src="cowboy_hat.png";
+                image4.className="cowboy";
+            }
+        }
+        
+        
     </script>
-   
-    </center>
-    <a onclick="changeColor();" class="myButton_color"></a>
-    <a  class="myButton_lips"></a>
-        <a  class="myButton_outfit"></a>
-    <a  class="myButton_hat"></a>
+         </center>
+   <div class="buttons">
+  
+    <a onclick="changeColor();" class="myButton_color">color</a>
+    <a onclick="changeMouth();" class="myButton_lips">mouth</a>
+        <a  class="myButton_outfit">outfit</a>
+    <a onclick="changeHat();" class="myButton_hat">hat</a>
+      </div>
+     
  
     
-    <h2>
-   
-    
-    </h2>
     </body>
 </html>

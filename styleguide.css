@@ -1,20 +1,70 @@
+.container{
+position:relative;
+    width:100%;
+    height:70%;
+}
+
+.screen{
+    position: absolute;
+z-index:-2;
+    max-width: 80%;
+}
+.green,.blue,.purple,.pink,.red,.orange,.yellow,.lightgreen{
+    position:relative;
+    align-content: center;
+max-width: 80%;
+height:auto;
+    z-index: -1;
+    top:15%;
+    right: -2%;
+}
+.cowboy,.lincoln,.chef,.wizard,.witch,.grad,.spin,.pirate{
+position:relative;
+max-width: 70%;
+height:auto;
+    z-index: 1;
+    top:-83%;
+    right:-1%;
+    
+    
+   
+}
+
+.smile,.mouth,.frown{
+position:absolute;
+max-width: 80%;
+height:auto;
+    z-index: 1;
+  right: 8%;
+    top:2%;
+}
+.buttons{
+position: relative;
+   width: 100%;
+    height: 5%;
+    z-index: 2;
+}
+
 header{
     display:block;
         width:100%;
-        height:15%;
+        height:20%;
     text-align: center;
     font-size: 60;
 }
+
+
+
+
 
 body{
 font-family:Marker felt, sans-serif;
 text-align: center;
 color: #009905;
 background-color: #A8FF00;
-    margin: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
-
-
 
 .myButton_color {
     
@@ -31,7 +81,7 @@ background-color: #A8FF00;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:17px;
-	padding:50px 50px;
+	padding:40px 32px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #2f6627;
 }
@@ -58,7 +108,7 @@ background-color: #A8FF00;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:17px;
-	padding:50px 50px;
+	padding:40px 27px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #2f6627;
 }
@@ -85,7 +135,7 @@ background-color: #A8FF00;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:17px;
-	padding:50px 50px;
+	padding:40px 33px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #2f6627;
 }
@@ -109,9 +159,9 @@ background-color: #A8FF00;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family:arial;
 	font-size:17px;
-	padding:50px 50px;
+	padding:40px 40px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #2f6627;
 }
