@@ -8,7 +8,7 @@ position:relative;
 .screen{
     position: relative;
 z-index:-2;
-    max-width: 100%;
+    max-width: 450%;
 }
 
 .green,.blue,.purple,.pink,.red,.orange,.yellow,.lightgreen{

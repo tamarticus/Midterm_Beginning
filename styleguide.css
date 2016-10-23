@@ -86,7 +86,7 @@ header{
 
 
 body{
-font-family:"Conformity", sans-serif;
+font-family:"Conformity", "skia", sans-serif;
 text-align: center;
 color: #156405 ;
 background-color: #4CFF38;
@@ -108,7 +108,7 @@ background-color: #4CFF38;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:"conformity";
+	font-family:"conformity", "skia", sans-serif;
 	font-size:30px;
 	padding:40px 34px;
 	text-decoration:none;
@@ -135,7 +135,7 @@ background-color: #4CFF38;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:"conformity";
+	font-family:"conformity", "skia", sans-serif;
 	font-size:30px;
 	padding:40px 27px;
 	text-decoration:none;
@@ -162,7 +162,7 @@ background-color: #4CFF38;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:"conformity";
+	font-family:"conformity", "skia", sans-serif;
 	font-size:30px;
 	padding:40px 28px;
 	text-decoration:none;
@@ -188,7 +188,7 @@ background-color: #4CFF38;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:"conformity";
+	font-family:"conformity", "skia", sans-serif;
 	font-size:30px;
 	padding:40px 39px;
 	text-decoration:none;
