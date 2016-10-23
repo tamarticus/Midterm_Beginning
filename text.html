@@ -2,50 +2,56 @@
 <head>
     
      <link href="styleguide.css" rel="stylesheet" type="text/css">
+      <link media="screen and (max-device-width:835px)" href="narrow.css" rel="stylesheet" type="text/css" >
+     <link media="screen and (max-width:950px)" href="medium.css" rel="stylesheet" type="text/css" >
     
     </head>
 <body>
     <header>
+      
+    BUILD-a-FROG
         
-    Build-a-Frog
     </header>
    
   <center>
   
       
      <div class="container">
-         <img src="screen.png" class="screen">
- <img src="greenfrog.png" id="frog" class="green">
-     <img src="cowboy_hat.png" id="hat" class="cowboy">
+         <img src="screen2.png" class="screen">
+ <img src="green_frog.png" id="frog" class="green">
+     <img src="nothing_hat.png" id="hat" class="nothing_hat">
           <img src="smile_mouth.png" id="mouth" class="smile">
+         <img src="nothing_outfit.png" id="outfit" class="nothing">
     </div>
      
+      <!--page that helped me figure out how to get the onclick image change to work: http://stackoverflow.com/questions/6764961/change-an-image-with-onclick-->
+      
     <script language="javascript">
          function changeColor(){
              var image = document.getElementById("frog");
             if(image.className==="green"){
-                image.src="bluefrog.png";
+                image.src="blue_frog.png";
                 image.className="blue";
             } else if(image.className==="blue"){
-                image.src="purplefrog.png";
+                image.src="purple_frog.png";
                 image.className="purple";
             } else if(image.className==="purple"){
-                image.src="pinkfrog.png";
+                image.src="pink_frog.png";
                 image.className="pink";
             } else if(image.className==="pink"){
-                image.src="redfrog.png";
+                image.src="red_frog.png";
                 image.className="red";
             } else if(image.className==="red"){
-                image.src="orangefrog.png";
+                image.src="orange_frog.png";
                 image.className="orange";
             } else if(image.className==="orange"){
-                image.src="yellowfrog.png";
+                image.src="yellow_frog.png";
                 image.className="yellow";
             } else if(image.className==="yellow"){
-                image.src="lightgreenfrog.png";
+                image.src="lightgreen_frog.png";
                 image.className="lightgreen";
             } else if(image.className==="lightgreen"){
-                image.src="greenfrog.png";
+                image.src="green_frog.png";
                 image.className="green";
             }
          }
@@ -55,16 +61,68 @@
               if(image2.className==="smile"){
                 image2.src="frown_mouth.png";
                 image2.className="frown";
-            }   
+            } else if(image2.className==="frown"){
+                image2.src="lips_mouth.png";
+                image2.className="lips";
+            } else if(image2.className==="lips"){
+                image2.src="side_mouth.png";
+                image2.className="side";
+            } else if(image2.className==="side"){
+                image2.src="tongue_mouth.png";
+                image2.className="tongue";
+            } else if(image2.className==="tongue"){
+                image2.src="teeth_mouth.png";
+                image2.className="teeth";  
+            } else if(image2.className==="teeth"){
+                image2.src="stache_mouth.png";
+                image2.className="stache";  
+            } else if(image2.className==="stache"){
+                image2.src="smile_mouth.png";
+                image2.className="smile";  
+            }
         
+        
+        }
+        
+        function changeOutfit(){
+        var image3 = document.getElementById("outfit");
+            
+            if(image3.className==="nothing"){
+                image3.src="tie_outfit.png";
+                image3.className="tie";
+            } else if(image3.className==="tie"){
+                image3.src="bowtie_outfit.png";
+                image3.className="bowtie";
+            } else if(image3.className==="bowtie"){
+                image3.src="pin_outfit.png";
+                image3.className="pin";
+            } else if(image3.className==="pin"){
+                image3.src="gold_outfit.png";
+                image3.className="gold";
+            } else if(image3.className==="gold"){
+                image3.src="pitchfork_outfit.png";
+                image3.className="pitchfork";
+            } else if(image3.className==="pitchfork"){
+                image3.src="sash_outfit.png";
+                image3.className="sash";
+            } else if(image3.className==="sash"){
+                image3.src="tattoo_outfit.png";
+                image3.className="tattoo";
+            } else if(image3.className==="tattoo"){
+                image3.src="nothing_outfit.png";
+                image3.className="nothing";
+            }
         
         }
         
         function changeHat(){
         var image4 = document.getElementById("hat");
             
-            if(image4.className==="cowboy"){
-            image4.src="lincoln_hat.png";
+            if(image4.className==="nothing_hat"){
+                image4.src="cowboy_hat.png";
+                image4.className="cowboy";
+            } else if(image4.className==="cowboy"){
+                image4.src="lincoln_hat.png";
                 image4.className="lincoln";
             
             } else if(image4.className==="lincoln"){
@@ -92,8 +150,8 @@
                 image4.className="pirate";
                 
             } else if(image4.className==="pirate"){
-                image4.src="cowboy_hat.png";
-                image4.className="cowboy";
+                image4.src="nothing_hat.png";
+                image4.className="nothing_hat";
             }
         }
         
@@ -104,10 +162,10 @@
   
     <a onclick="changeColor();" class="myButton_color">color</a>
     <a onclick="changeMouth();" class="myButton_lips">mouth</a>
-        <a  class="myButton_outfit">outfit</a>
+        <a onclick="changeOutfit();" class="myButton_outfit">outfit</a>
     <a onclick="changeHat();" class="myButton_hat">hat</a>
       </div>
-     
+    <!--website used to help code buttons in CSS: http://www.bestcssbuttongenerator.com/--> 
  
     
     </body>
