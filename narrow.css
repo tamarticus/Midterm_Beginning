@@ -1,3 +1,8 @@
+@font-face{
+font-family:"conformity";
+    src: url("CONFN___.TTF");
+}
+
 .container{
 position:relative;
     width:100%;
