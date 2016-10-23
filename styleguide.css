@@ -1,3 +1,8 @@
+@font-face{
+font-family:"conformity";
+    src: url("CONFN___.TTF");
+}
+
 .container{
 position:relative;
     width:100%;
@@ -89,7 +94,7 @@ body{
 font-family:"Conformity", "skia", sans-serif;
 text-align: center;
 color: #156405 ;
-background-color: #4CFF38;
+background-color: #87FF65;
     margin-top: 1%;
     margin-left: 20%;
     margin-right: 20%;
