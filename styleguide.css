@@ -102,6 +102,10 @@ background-color: #87FF65;
 
 .myButton_color {
     
+     -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
 	-moz-box-shadow: 6px 3px 0px 0px #A3317B;
 	-webkit-box-shadow: 6px 3px 0px 0px #A3317B;
 	box-shadow: 6px 3px 0px 0px #A3317B;
@@ -129,6 +133,10 @@ background-color: #87FF65;
 }
 
 .myButton_lips {
+     -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
 	-moz-box-shadow: 6px 3px 0px 0px #A3317B;
 	-webkit-box-shadow: 6px 3px 0px 0px #A3317B;
 	box-shadow: 6px 3px 0px 0px #A3317B;
@@ -156,6 +164,10 @@ background-color: #87FF65;
 }
 
 .myButton_outfit {
+     -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
 	-moz-box-shadow: 6px 3px 0px 0px #A3317B ;
 	-webkit-box-shadow: 6px 3px 0px 0px #A3317B;
 	box-shadow: 6px 3px 0px 0px #A3317B;
@@ -182,6 +194,10 @@ background-color: #87FF65;
     
 }
 .myButton_hat {
+     -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
 	-moz-box-shadow: 6px 3px 0px 0px #A3317B;
 	-webkit-box-shadow: 6px 3px 0px 0px #A3317B;
 	box-shadow: 6px 3px 0px 0px #A3317B;
