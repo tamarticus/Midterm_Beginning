@@ -1,28 +1,31 @@
 <html>
 <head>
     
-     <link href="styleguide.css" rel="stylesheet" type="text/css">
-      <link media="screen and (max-device-width:835px)" href="narrow.css" rel="stylesheet" type="text/css" >
-     <link media="screen and (max-width:950px)" href="medium.css" rel="stylesheet" type="text/css" >
+     <link href="css/styleguide.css" rel="stylesheet" type="text/css">
+      <link media="screen and (max-device-width:835px)" href="css/narrow.css" rel="stylesheet" type="text/css" >
+     <link media="screen and (max-width:950px)" href="css/medium.css" rel="stylesheet" type="text/css" >
     
     </head>
 <body>
     <header>
       
-    BUILD-a-FROG
+    BUILD-a-FROG 
+        
+        <!--got my font from: http://www.1001fonts.com/conformity-font.html-->
         
         <!--used this to learn how to add a font into my css files: http://stackoverflow.com/questions/107936/how-to-add-some-non-standard-font-to-a-website-->
+        
     </header>
    
   <center>
   
       
      <div class="container">
-         <img src="screen2.png" class="screen">
- <img src="green_frog.png" id="frog" class="green">
-     <img src="nothing_hat.png" id="hat" class="nothing_hat">
-          <img src="smile_mouth.png" id="mouth" class="smile">
-         <img src="nothing_outfit.png" id="outfit" class="nothing">
+         <img src="images/screen2.png" class="screen">
+ <img src="images/green_frog.png" id="frog" class="green">
+     <img src="images/nothing_hat.png" id="hat" class="nothing_hat">
+          <img src="images/smile_mouth.png" id="mouth" class="smile">
+         <img src="images/nothing_outfit.png" id="outfit" class="nothing">
     </div>
      
       <!--page that helped me figure out how to get the onclick image change to work: http://stackoverflow.com/questions/6764961/change-an-image-with-onclick-->
@@ -31,28 +34,28 @@
          function changeColor(){
              var image = document.getElementById("frog");
             if(image.className==="green"){
-                image.src="blue_frog.png";
+                image.src="images/blue_frog.png";
                 image.className="blue";
             } else if(image.className==="blue"){
-                image.src="purple_frog.png";
+                image.src="images/purple_frog.png";
                 image.className="purple";
             } else if(image.className==="purple"){
-                image.src="pink_frog.png";
+                image.src="images/pink_frog.png";
                 image.className="pink";
             } else if(image.className==="pink"){
-                image.src="red_frog.png";
+                image.src="images/red_frog.png";
                 image.className="red";
             } else if(image.className==="red"){
-                image.src="orange_frog.png";
+                image.src="images/orange_frog.png";
                 image.className="orange";
             } else if(image.className==="orange"){
-                image.src="yellow_frog.png";
+                image.src="images/yellow_frog.png";
                 image.className="yellow";
             } else if(image.className==="yellow"){
-                image.src="lightgreen_frog.png";
+                image.src="images/lightgreen_frog.png";
                 image.className="lightgreen";
             } else if(image.className==="lightgreen"){
-                image.src="green_frog.png";
+                image.src="images/green_frog.png";
                 image.className="green";
             }
          }
@@ -60,25 +63,25 @@
         function changeMouth(){
             var image2 = document.getElementById("mouth");
               if(image2.className==="smile"){
-                image2.src="frown_mouth.png";
+                image2.src="images/frown_mouth.png";
                 image2.className="frown";
             } else if(image2.className==="frown"){
-                image2.src="lips_mouth.png";
+                image2.src="images/lips_mouth.png";
                 image2.className="lips";
             } else if(image2.className==="lips"){
-                image2.src="side_mouth.png";
+                image2.src="images/side_mouth.png";
                 image2.className="side";
             } else if(image2.className==="side"){
-                image2.src="tongue_mouth.png";
+                image2.src="images/tongue_mouth.png";
                 image2.className="tongue";
             } else if(image2.className==="tongue"){
-                image2.src="teeth_mouth.png";
+                image2.src="images/teeth_mouth.png";
                 image2.className="teeth";  
             } else if(image2.className==="teeth"){
-                image2.src="stache_mouth.png";
+                image2.src="images/stache_mouth.png";
                 image2.className="stache";  
             } else if(image2.className==="stache"){
-                image2.src="smile_mouth.png";
+                image2.src="images/smile_mouth.png";
                 image2.className="smile";  
             }
         
@@ -89,28 +92,28 @@
         var image3 = document.getElementById("outfit");
             
             if(image3.className==="nothing"){
-                image3.src="tie_outfit.png";
+                image3.src="images/tie_outfit.png";
                 image3.className="tie";
             } else if(image3.className==="tie"){
-                image3.src="bowtie_outfit.png";
+                image3.src="images/bowtie_outfit.png";
                 image3.className="bowtie";
             } else if(image3.className==="bowtie"){
-                image3.src="pin_outfit.png";
+                image3.src="images/pin_outfit.png";
                 image3.className="pin";
             } else if(image3.className==="pin"){
-                image3.src="gold_outfit.png";
+                image3.src="images/gold_outfit.png";
                 image3.className="gold";
             } else if(image3.className==="gold"){
-                image3.src="pitchfork_outfit.png";
+                image3.src="images/pitchfork_outfit.png";
                 image3.className="pitchfork";
             } else if(image3.className==="pitchfork"){
-                image3.src="sash_outfit.png";
+                image3.src="images/sash_outfit.png";
                 image3.className="sash";
             } else if(image3.className==="sash"){
-                image3.src="tattoo_outfit.png";
+                image3.src="images/tattoo_outfit.png";
                 image3.className="tattoo";
             } else if(image3.className==="tattoo"){
-                image3.src="nothing_outfit.png";
+                image3.src="images/nothing_outfit.png";
                 image3.className="nothing";
             }
         
@@ -120,38 +123,38 @@
         var image4 = document.getElementById("hat");
             
             if(image4.className==="nothing_hat"){
-                image4.src="cowboy_hat.png";
+                image4.src="images/cowboy_hat.png";
                 image4.className="cowboy";
             } else if(image4.className==="cowboy"){
-                image4.src="lincoln_hat.png";
+                image4.src="images/lincoln_hat.png";
                 image4.className="lincoln";
             
             } else if(image4.className==="lincoln"){
-                image4.src="chef_hat.png";
+                image4.src="images/chef_hat.png";
                 image4.className="chef";
             
             } else if(image4.className==="chef"){
-                image4.src="wizard_hat.png";
+                image4.src="images/wizard_hat.png";
                 image4.className="wizard";
                 
             } else if(image4.className==="wizard"){
-                image4.src="witch_hat.png";
+                image4.src="images/witch_hat.png";
                 image4.className="witch";
                 
             } else if(image4.className==="witch"){
-                image4.src="grad_hat.png";
+                image4.src="images/grad_hat.png";
                 image4.className="grad";
                 
             } else if(image4.className==="grad"){
-                image4.src="spin_hat.png";
+                image4.src="images/spin_hat.png";
                 image4.className="spin";
                 
             } else if(image4.className==="spin"){
-                image4.src="pirate_hat.png";
+                image4.src="images/pirate_hat.png";
                 image4.className="pirate";
                 
             } else if(image4.className==="pirate"){
-                image4.src="nothing_hat.png";
+                image4.src="images/nothing_hat.png";
                 image4.className="nothing_hat";
             }
         }
@@ -167,7 +170,7 @@
     <a onclick="changeHat();" class="myButton_hat">hat</a>
       </div>
     <!--website used to help code buttons in CSS: http://www.bestcssbuttongenerator.com/--> 
- 
+ <!-- learned how to stop the text on my buttons from highlighting here: http://usabilitypost.com/2012/01/10/pressed-button-state-with-css3/-->
     
     </body>
 </html>
